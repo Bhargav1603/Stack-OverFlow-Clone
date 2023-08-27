@@ -1,0 +1,16 @@
+export const AUTH = 'AUTH';
+export const LOGOUT = 'LOGOUT';
+export const CREATE = 'CREATE';
+export const FETCH_ALL = 'FETCH_ALL';
+export const FETCH_QUESTION = 'FETCH_QUESTION';
+export const DELETE = 'DELETE';
+export const UPDATE = 'UPDATE';
+export const FETCH_TAGS = 'FETCH_TAGS';
+export const FETCH_BY_SEARCH = 'FETCH_BY_SEARCH';
+export const FETCH_TAG = 'FETCH_TAG';
+export const UPDATE_TAG = 'UPDATE_TAG';
+export const SUCCESS = 'SUCCESS';
+export const ERROR = 'ERROR';
+export const CLEAR = 'CLEAR';
+export const START_LOADING = 'START_LOADING';
+export const END_LOADING = 'END_LOADING';

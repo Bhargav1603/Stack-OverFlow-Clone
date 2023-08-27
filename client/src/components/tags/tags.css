@@ -1,0 +1,90 @@
+.tagsContainer {
+    margin-top: 70px;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.tagsContent{
+    margin:20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:15px;
+}
+@media screen and (max-width:1400px){
+    .tagsContent{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width:1070px){
+    .tagsContent{
+        grid-template-columns:1fr 1fr;
+    }
+}
+@media screen and (max-width:620px){
+    .tagsContent{
+        grid-template-columns:1fr;
+    }
+}
+
+.tagCard{
+    /* height:200px; */
+    background-color: #434D56;
+    border-color: aliceblue;
+}
+.tagsHeader{
+    font-size:2rem;
+    margin:20px 0;
+}
+.tagsNav{
+    margin-top: 100px;
+}
+.tagsBody{
+    margin-bottom: 20px;
+}
+.tagsBar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tagbody{
+margin: 15px 0;
+height:50%;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 4; 
+-webkit-box-orient: vertical;
+font-size:0.8rem;
+}
+.tagFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size:0.8rem;
+}
+.tagsSortbtns{
+    height:40px;
+}
+.filterBar{
+    width:30%;
+    margin-top:20px;
+}
+.popular,.Name,.newest{
+font-weight: 500;
+color: #198754;
+border:2px solid #198754;
+}
+.newest.active{
+    background-color:#198754;
+    color:#fff;
+}
+.popular.active{
+    background-color:#198754;
+    color:#fff;
+}
+.Name.active{
+    background-color:#198754;
+    color:#fff;
+}

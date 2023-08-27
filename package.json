@@ -1,0 +1,21 @@
+{
+  "name": "iitg-stackoverflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhanuNelluri/StackOverCloned.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhanuNelluri/StackOverCloned/issues"
+  },
+  "homepage": "https://github.com/BhanuNelluri/StackOverCloned#readme"
+}

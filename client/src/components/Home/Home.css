@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AppContainer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    background-color: #434D56;
+    /* margin-top: 70px; */
+}
+.homeContent{
+    background-color: #434D56;
+}
+.sidebar{
+    background-color: #434D56;
+}
+
+@media screen and (max-width:768px){
+    .sidebar{
+        display: none;
+    }.AppContainer{
+        grid-template-columns: 1fr;
+    }
+}
+.pagination{
+    margin:30px 0;
+    margin-left:20px;
+}
+.HomeSearchBar{
+    display:none;
+    margin-top: 100px;
+    padding:0 20px;
+}
+@media screen and (max-width:550px){
+    .HomeSearchBar{
+        display:flex;
+    }
+    .AppContainer{
+        margin-top:10px;
+    }
+
+}
